@@ -1,0 +1,17 @@
+{
+  "name": "is-fresh",
+  "version": "1.0.0",
+  "description": "Check whether a HTTP request is fresh.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "author": "DavidCai1993",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "should": "^8.3.1",
+    "standard": "^7.1.0"
+  }
+}
